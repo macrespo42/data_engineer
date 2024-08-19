@@ -14,6 +14,12 @@ services:
       - type: bind
         source: ./ex02/
         target: /opt/ex02/
+      - type: bind
+        source: ./ex03/
+        target: /opt/ex03/
+      - type: bind
+        source: ./ex04/
+        target: /opt/ex04/
   adminer:
     image: adminer
     restart: always
